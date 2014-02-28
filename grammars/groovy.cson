@@ -782,16 +782,17 @@
         ]
       }
     ]
-  'methods':
-    'applyEndPatternLast': 1
-    'begin': '(?x:(?<=;|^|{)(?=\\s*\n                (?:\n                    (?:private|protected|public|native|synchronized|abstract|threadsafe|transient|static|final) # visibility/modifier\n                        |\n                    (?:def)\n                        |\n                    (?:\n                        (?:\n                            (?:void|boolean|byte|char|short|int|float|long|double)\n                                |\n                            (?:@?(?:[a-zA-Z]\\w*\\.)*[A-Z]+\\w*) # object type\n                        )\n                        [\\[\\]]*\n                        (?:<.*>)?\n                    ) \n                    \n                )\n                \\s+\n                ([^=]+\\s+)?\\w+\\s*\\(\n\t\t\t))'
-    'end': '}|(?=[^{])'
-    'name': 'meta.definition.method.groovy'
-    'patterns': [
-      {
-        'include': '#method-content'
-      }
-    ]
+  #This appears to match methods correclty, but you lose formatting of words like 'public' when it does
+  #'methods':
+  #  'applyEndPatternLast': 1
+  #  'begin': '(?x:(?<=;|^|{)(?=\\s*(?:(?:private|protected|public|native|synchronized|abstract|threadsafe|transient|static|final)?)|(?:def)|(?:(?:(?:void|boolean|byte|char|short|int|float|long|double)|(?:@?(?:[a-zA-Z]\\w*\\.)*[A-Z]+\\w*))[\\[\\]]*(?:<.*>)?) )\\s+([^=]+\\s+)?\\w+\\s*\\(\n\t\t\t)'
+  #  'end': '}|(?=[^{])'
+  #  'name': 'meta.definition.method.groovy'
+  #  'patterns': [
+  #    {
+  #      'include': '#method-content'
+  #    }
+  #  ]
   'nest_curly':
     'begin': '\\{'
     'captures':
@@ -1164,7 +1165,7 @@
     'applyEndPatternLast': 1
     'patterns': [
       {
-        'begin': '(?x:(?=\n                        (?:\n                            (?:private|protected|public|native|synchronized|abstract|threadsafe|transient|static|final) # visibility/modifier\n                                |\n                            (?:def)\n                                |\n                            (?:void|boolean|byte|char|short|int|float|long|double)\n                                |\n                            (?:(?:[a-z]\\w*\\.)*[A-Z]+\\w*) # object type\n                        )\n                        \\s+\n                        [\\w\\d_<>\\[\\],\\s]+\n                        (?:=|$)\n                        \n        \t\t\t))'
+        'begin': '(?x:(?=(?:(?:private|protected|public|native|synchronized|abstract|threadsafe|transient|static|final)|(?:def)|(?:void|boolean|byte|char|short|int|float|long|double)|(?:(?:[a-z]\\w*\\.)*[A-Z]+\\w*))\\s+[\\w\\d_<>\\[\\],\\s]+(?:=|$)\t\t\t))'
         'end': ';|$'
         'name': 'meta.definition.variable.groovy'
         'patterns': [
