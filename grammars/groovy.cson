@@ -212,7 +212,7 @@
       }
     ]
   'class':
-    'begin': '(?=\\w?[\\w\\s]*(?:class|(?:@)?interface|enum)\\s+\\w+)'
+    'begin': '(?=\\w?[\\w\\s]*(?:class|trait|(?:@)?interface|enum)\\s+\\w+)'
     'end': '}'
     'endCaptures':
       '0':
@@ -231,7 +231,7 @@
             'name': 'storage.modifier.groovy'
           '2':
             'name': 'entity.name.type.class.groovy'
-        'match': '(class|(?:@)?interface|enum)\\s+(\\w+)'
+        'match': '(class|trait|(?:@)?interface|enum)\\s+(\\w+)'
         'name': 'meta.class.identifier.groovy'
       }
       {
