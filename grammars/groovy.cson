@@ -1,6 +1,7 @@
 'fileTypes': [
   'groovy'
   'gvy'
+  'gradle'
 ]
 'foldingStartMarker': '(\\{\\s*$|^\\s*// \\{\\{\\{)'
 'foldingStopMarker': '^\\s*(\\}|// \\}\\}\\}$)'
