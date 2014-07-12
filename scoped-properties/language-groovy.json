@@ -1,0 +1,7 @@
+{
+  ".source.groovy": {
+    "editor": {
+      "commentStart": "// "
+    }
+  }
+}
