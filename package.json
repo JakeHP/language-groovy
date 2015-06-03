@@ -8,8 +8,14 @@
   "engines": {
     "atom": ">0.50.0 <2.0.0"
   },
-  "dependencies": {},
   "bugs": {
     "url": "https://github.com/Jakehp/language-groovy/issues"
+  },
+  "scripts": {
+    "test": "coffeelint grammars/groovy.cson settings/language-groovy.cson snippets/language-groovy.cson"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "coffeelint": "1.10.1"
   }
 }

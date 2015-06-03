@@ -1,7 +1,3 @@
 language: node_js
 
 node_js: "iojs"
-
-install: npm install -g coffeelint
-
-script: coffeelint grammars/groovy.cson settings/language-groovy.cson snippets/language-groovy.cson
