@@ -1,7 +1,7 @@
 '.source.groovy':
-  '#!/usr/bin/env groovy -w':
+  '#!/usr/bin/env groovy':
     'prefix': '#!'
-    'body': '#!/usr/bin/env groovy -w\n\n'
+    'body': '#!/usr/bin/env groovy\n\n'
   'replace(dir: …, includes: …, token: …, value: …)':
     'prefix': 'replace'
     'body': 'replace(dir:"${1:dirName}", includes:"${2:*.*}", token:"${3:tokenName}", value:"\\${${4:value}}")$0'
