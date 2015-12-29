@@ -4,7 +4,7 @@
 
 Adds syntax highlighting and snippets to Groovy files in Atom.
 
-Originally [converted](http://atom.io/docs/latest/converting-a-text-mate-bundle)
+Originally [converted](https://atom.io/docs/v1.3.2/hacking-atom-converting-from-textmate)
 from the [groovy.tmbundle](https://github.com/textmate/groovy.tmbundle).
 
 Contributions are *greatly* appreciated. Please fork this repository, open a pull request to add snippets, make grammar tweaks, fix issues, etc.
