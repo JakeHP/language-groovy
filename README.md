@@ -17,4 +17,4 @@ apm install language-groovy
 If apm is not recognized, open Atom, open the Atom menu, and select "Install Shell Commands". Then try running the command again.
 
 Contributors:  
-[ChristianMurphy](https://github.com/ChristianMurphy)
+[ChristianMurphy](https://github.com/ChristianMurphy), [bhuddleston42](https://github.com/bhuddleston42)
