@@ -2,6 +2,7 @@
   'groovy'
   'gvy'
   'gradle'
+  'Jenkinsfile'
 ]
 'foldingStartMarker': '(\\{\\s*$|^\\s*// \\{\\{\\{)'
 'foldingStopMarker': '^\\s*(\\}|// \\}\\}\\}$)'
