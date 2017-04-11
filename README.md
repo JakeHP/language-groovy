@@ -14,7 +14,17 @@ Contributions are *greatly* appreciated. Please fork this repository, open a pul
 ```shell
 apm install language-groovy
 ```
-If apm is not recognized, open Atom, open the Atom menu, and select "Install Shell Commands". Then try running the command again.
+If `apm` is not recognized, open Atom, open the Atom menu, and select "Install Shell Commands". Then try running the command again.
+
+## Local Development
+
+You can use `apm` to link the local copy and install the dependencies:
+
+```shell
+> apm dev language-groovy /path/to/your/cloned/fork
+```
+
+The package will appear in the *Development* section of Atom's packages. Re-open your window in Development Mode (*View->Developer->Open in Dev Mode*) and test your changes.
 
 Contributors:  
 [sjurgemeyer](https://github.com/sjurgemeyer), [glaforge](https://github.com/glaforge), [alberthier](https://github.com/alberthier), [kpitt](https://github.com/kpitt), [ChristianMurphy](https://github.com/ChristianMurphy), [bhuddleston42](https://github.com/bhuddleston42), [bakharal](https://github.com/bakharal)
