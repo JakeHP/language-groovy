@@ -27,4 +27,4 @@ You can use `apm` to link the local copy and install the dependencies:
 The package will appear in the *Development* section of Atom's packages. Re-open your window in Development Mode (*View->Developer->Open in Dev Mode*) and test your changes.
 
 Contributors:  
-[sjurgemeyer](https://github.com/sjurgemeyer), [glaforge](https://github.com/glaforge), [alberthier](https://github.com/alberthier), [kpitt](https://github.com/kpitt), [ChristianMurphy](https://github.com/ChristianMurphy), [bhuddleston42](https://github.com/bhuddleston42), [bakharal](https://github.com/bakharal)
+[AwaNoodle](https://github.com/AwaNoodle), [ssbarnea](https://github.com/ssbarnea), [sjurgemeyer](https://github.com/sjurgemeyer), [glaforge](https://github.com/glaforge), [alberthier](https://github.com/alberthier), [kpitt](https://github.com/kpitt), [ChristianMurphy](https://github.com/ChristianMurphy), [bhuddleston42](https://github.com/bhuddleston42), [bakharal](https://github.com/bakharal)
