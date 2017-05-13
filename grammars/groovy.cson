@@ -1,5 +1,6 @@
 'fileTypes': [
   'groovy'
+  'groovy.inc'
   'gvy'
   'gradle'
   'Jenkinsfile'
